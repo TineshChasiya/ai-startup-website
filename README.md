@@ -82,7 +82,3 @@ ai-startup-website/
 * Live Website: https://ai-startup-nexabharat.netlify.app/
 
 ---
-
-## 🔹 License
-
-This project is licensed under the MIT License. See the `LICENSE` file for details.
