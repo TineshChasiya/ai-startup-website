@@ -65,6 +65,10 @@ html, body{
     color: #e5e7eb;
     position: relative;
     overflow: hidden;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding-top: 80px;
 }
 .hero-title{
     font-size: 40px;
@@ -414,11 +418,12 @@ html, body{
     font-size: 13px;
     border-radius: 20px;
     font-weight: 600;
+    max-width: calc(100% - 20px);
 }
 
 /* faq-cta */
 .faq-cta-section{
-    padding: 100px;
+    padding: 100px 0;
     background: #0e1324;
     color: #e5e7eb;
 }
@@ -526,4 +531,14 @@ html, body{
         transform: none !important;
         opacity: 1 !important;
     }
+    .pricing-card.popular {
+    transform: none;
+    }
 }
+@media (max-width:768px) {
+    .hero-section{
+        padding-top: 90px;
+        text-align: center;
+    }
+}
+
